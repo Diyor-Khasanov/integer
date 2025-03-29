@@ -7,6 +7,7 @@ if (son > 999 && son < 99) {
   let biron = Math.floor(son / 10);
   let ikki = Math.floor(biron / 10);
   let uch = son % 10;
-  let sum = bir + ikki + uch;
-  console.log(sum);
+
+  let yangiSon = uch * 100 + ikki * 10 + bir;
+  console.log(yangiSon);
 }
